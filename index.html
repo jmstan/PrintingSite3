@@ -1,14 +1,24 @@
 ---
-layout: default
-title: PrintingSite2
-tag: "parallax"
+layout: page
+title: mySecondJekyllSite
 ---
 
-{% for page in site.posts %}
-      
+<section>
+	<article class="container">
+		<h1>this is all my content</h1>
+		<h4>I'm going to put some posts here:</h4>
 
-<a href="{{ site.baseurl}}{{ post.url }}"> </a>
+		{% for post in site.posts %}
+			<h3>
+				<a href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }} 
+				</a>
+			</h3>
 
-    
-{% endfor %}
+			{{ post.content }}
+		{% endfor %}
 
+<!-- this is a comment -->
+
+	</article>
+</section>
