@@ -10,7 +10,7 @@ tag: "first"
 <small>great.</small>  -->
  <h3 class="service-title da-all"> Our Services </h3> 
 
-              <div class="main-box da-all"> 
+<div class="main-box da-all"> 
                 
                     <div class="box1 da2-da4"> 
                           <img src='{{site.url}}assets/color.png' width="100px" height="100px" class="icon1">
@@ -33,4 +33,4 @@ tag: "first"
                           </a>
                     </div> 
                  
-               </div>         
+</div>         
