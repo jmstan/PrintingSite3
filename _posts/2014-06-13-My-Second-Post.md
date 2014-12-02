@@ -10,7 +10,7 @@ tag: "second"
             <!-- <h1 class="main-1"> Welcome </h1>
              <h2 class="main-2"> to </h2>
              <h2 class="main-3"> Quality Photographic Printing </h2>  -->
-       <!--      <h1 class="main-1"> Welcome to Quality Photographic Printing </h1>  -->
+            <h1 class="main-1"> Welcome to Quality Photographic Printing </h1>  
            </div>
         </div>
     </div>
