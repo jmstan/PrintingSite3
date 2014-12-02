@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post2
 title: My First Post
 tag: "first"
 
