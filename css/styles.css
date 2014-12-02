@@ -1,0 +1,434 @@
+---
+---
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+/*---------- End Reset----------*/
+
+
+/*----------Parallax Styles------*/
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+  display:table;
+}
+.content-b {
+  display:table-cell;
+    position:relative;
+  vertical-align:middle;
+  text-align:center;
+}
+
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:16px;
+
+  color:#4e4e4e;
+    text-align:center;
+}
+section {
+
+}
+.not-fullscreen {
+    height:80%;
+}
+/*------End Parallax Styles----*/
+
+
+@font-face {
+font-family: DinoPro-Medium.ttf;
+src: url("{{site.url}}assets/css/DinoPro-Medium.ttf") format("opentype");
+}
+
+
+.wrapper{
+  position: none;
+}
+
+body, .wrapper, html{
+  height:100%;
+  min-height:100%;
+} 
+
+ul{
+   overflow: hidden;
+}
+
+
+ul li{
+  
+  float:left;
+  margin: 10px 0px 0px 30px;
+   list-style: none;
+}
+
+
+
+
+nav ul a{
+
+   font-family: "faricy-new-web";
+   font-size: 18px;
+   font-weight: 300;
+   letter-spacing: 1px;
+   color: white;
+   text-decoration: none; 
+}
+
+
+.top{
+   overflow: hidden;
+
+}
+
+
+.nav{
+  float:left;
+}
+
+.logo{
+  font-family: "merriweather";
+  float: left;
+  color:white;
+  margin-left: 35px;
+}
+
+
+.main-1{
+text-align: center;
+font-size: 72px;
+font-family: "faricy-new-web";
+color: black;
+letter-spacing: 1.5px;
+color:white;
+}
+
+
+
+h2 {
+ /* font-family: "faricy-new-web";  */
+ font-family: DINPro-Medium;
+  font-size: 48px;
+  margin-top: 30px;
+  text-align: center;
+  color:white;
+  }
+
+p{
+  font-size: 16px;
+  font-family: "faricy-new-web";
+  font-weight: 400;
+
+}
+
+
+.message-blurb{
+  margin-top: 20px;
+}
+.main-nav{
+  overflow: hidden;
+border: 1px solid black;
+padding: 15px 5px;
+background-color: black;
+position: fixed;
+width: 100%;
+z-index:1;
+top:0;
+}
+
+.main-container{
+ background: url('../assets/image1.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+position: absolute;
+display: table;
+height: 100%;
+width: 100%;
+ }
+
+
+.text-overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.box1, .box2, .box3{
+  text-align: center;
+}
+
+
+
+h2.text {
+    text-align: center;
+    color: black;
+   font-family:"adelle-sans"; 
+    font-size: 36px;
+    line-height: 2;
+    padding: 0 10%;
+}
+
+.color-box{
+  float:left;
+}
+
+.main-box{
+  overflow: hidden;
+
+position: absolute;
+left: 50%;
+
+top:60%;
+-webkit-transform: translate(-50%, -50%);
+width: 900px;
+margin: 0 auto;
+}
+
+.title-box{
+    margin: 0 auto;
+   
+    font-size: 20px;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 24px;
+    font-family: "faricy-new-web";
+    letter-spacing: 1px;
+
+}
+
+
+.form-control {
+display: block;
+width: 94%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid black;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow easein-out .15s;
+}
+
+.form-group{
+  margin-top: 10px;
+  text-align: right;
+}
+
+input#input_message.form-control{
+  height:125px;
+}
+
+.btn{
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: 1px solid #0a0a0c;
+  color: #0a0a0c;
+  background-color: white;
+
+}
+
+#Your-Icon{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.location-icon{
+  
+   text-align: center;
+  
+}
+
+p.location-blurb{
+  margin-top: 6%;
+}
+
+p.email-blurb{
+  margin-top: 10%;
+}
+
+p.number-blurb{
+  margin-top: 10%;
+}
+
+p.message{
+  margin-left: 0px;
+  line-height: 1.3;
+}
+
+.email-icon{
+text-align: center;
+}
+
+.form-control a, placeholder{
+  color:black !important;
+}
+
+.message-form{
+  margin-top: 1%;
+}
+
+.email-icon, .phone-icon{
+  margin-top: 3%;
+}
+
+.location-icon, .email-icon, .phone-icon{
+ text-align: left;
+padding: 5px;
+overflow: hidden;
+}
+
+
+img{
+  float:left;
+}
+
+p{
+  display: inline-block;
+margin-top: 23px;
+margin-left: 20px;
+font-family: "faricy-new-web";
+letter-spacing: 1px;
+font-size: 18px;
+}
+
+
+a{
+  line-height: 1.5;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.icon1{
+  float:none;
+}
+
+
+.title{
+  font-size: 42px;
+  font-family: "faricy-new-web";
+  letter-spacing: 1px;
+}
+
+.icons-all{
+  margin-top: -5%;
+}
+
+.service-title, .project-title{
+
+  margin-top: -20%;
+  font-size: 42px;
+  font-family: "faricy-new-web";  
+  letter-spacing: 1px;
+}
+
+.project-title{
+  margin-top: -12%;
+}
+
+.project1{
+  background: url('{{site.url}}assets/frames_small.jpg');
+}
+
+#gmap_canvas{
+   border:1px solid black;
+   }
+
+button.submit{
+  padding: 10px 25px;
+  background: white;
+  border:1px solid black;
+  margin-right: 2px;
+  font-family: "faricy-new-web";
+  font-size: 16px; 
+
+}
+
+
+/*.fullscreen.background.parallax{
+  background: url('{{site.url}}assets/01.jpg');
+}*/
+
+@media screen and (max-width:767px){
+   ul li{
+      float:none;
+      margin: 0 auto;
+   }
+
+
+}
