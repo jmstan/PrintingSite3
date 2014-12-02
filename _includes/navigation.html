@@ -1,0 +1,14 @@
+<section>
+<article class="navigation">
+	<nav class="nav-wrap text-center">
+		<h1><a href="{{ site.baseurl }}/">HOME! </a>
+			
+			{% for page in site.pages %}
+			{% if page.title != "mySecondJekyllSite" %}
+				<a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a>
+			{% endif %}
+			{% endfor %}
+	</h1>
+	</nav>
+</article>
+</section>
