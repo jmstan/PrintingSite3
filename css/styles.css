@@ -82,17 +82,7 @@ html, body {
 }
 
 /* visual styles */
-body{
-    margin:0;
-    font-family:sans-serif;
-    font-size:16px;
 
-  color:#4e4e4e;
-    text-align:center;
-}
-section {
-
-}
 .not-fullscreen {
     height:80%;
 }
