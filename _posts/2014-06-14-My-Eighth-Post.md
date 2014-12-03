@@ -9,7 +9,5 @@ tag: "first"
 <!--<div class="fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
     <div class="content-a">
         <div class="content-b">  -->
-<h2> Centered content  </h2>
-  <!--      </div>
-    </div>
-</div>  -->
+## Centered content  
+  
