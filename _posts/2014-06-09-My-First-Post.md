@@ -1,36 +1,18 @@
 ---
-layout: post2
+layout: post
 title: My First Post
 tag: "first"
 
 ---
 
-<!--<h2>This is my first post in Jekyll!</h2>
-
-<small>great.</small>  -->
- <h3 class="service-title da-all"> Our Services </h3> 
-
-<div class="main-box da-all"> 
-                
-                    <div class="box1 da2-da4"> 
-                          <img src='{{site.url}}assets/color.png' width="100px" height="100px" class="icon1">
-                          <p class="title-box"> Color Correction </p>
-                           <a> Archival inkjet printing, also known as giclée, has become the standard for  photographic fine art printing and art reproduction alike. With an enormous selection of ink receptive substrates, the possibilities are endless, allowing artists to take their work exactly where they want it to go.
-                          </a>
-                    </div>  
-
-                    <div class="box2 da6-da8"> 
-                          <img src='{{site.url}}assets/printer.png' width="100px" height="100px" class="icon1">
-                          <p class="title-box"> Inkjet Printing </p>
-                          <a> Archival inkjet printing, also known as giclée, has become the standard for  photographic fine art printing and art reproduction alike. With an enormous selection of ink receptive substrates, the possibilities are endless, allowing artists to take their work exactly where they want it to go.
-                          </a>
-                    </div>
-
-                    <div class="box3 da10-da12"> 
-                          <img src='{{site.url}}assets/portfolio.png' width="100px" height="100px" class="icon1">
-                          <p class="title-box"> Portfolio </p>
-                          <a> Archival inkjet printing, also known as giclée, has become the standard for  photographic fine art printing and art reproduction alike. With an enormous selection of ink receptive substrates, the possibilities are endless, allowing artists to take their work exactly where they want it to go.
-                          </a>
-                    </div> 
-                 
-</div>         
+<div class="fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_9857.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
+    <div class="content-a">
+        <div class="content-b">
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br>Content overflow<br>Content overflow
+            <br><br>
+        </div>
+    </div>
+</div>
