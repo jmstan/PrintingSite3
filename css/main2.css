@@ -125,7 +125,7 @@ ul{
 ul li{
   
   float:left;
-  margin: 10px 0px 0px 30px;
+  margin: 13px 0px 0px 3px;
    list-style: none;
 }
 
@@ -136,7 +136,7 @@ ul li:first-child{
 
 nav ul a{
 
-   font: 14px/30px 'Fauna One', Georgia, serif;
+   font: 12px/30px 'Fauna One', Georgia, serif;
    font-weight: 300;
    letter-spacing: 1px;
    color: white;
@@ -208,7 +208,7 @@ p{
 .main-nav{
   overflow: hidden;
 border: 1px solid black;
-padding: 15px 5px;
+
 background-color: black;
 position: fixed;
 width: 100%;
