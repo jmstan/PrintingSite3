@@ -594,13 +594,13 @@ margin-top: 40px;
 .head2{
 margin-top:50px;
 background-color: white;
-opacity: 0.6;
+opacity: 0.8;
 height: 100px;
 padding: 18px 20px 2px 20px;
 border-radius: 10px;
-line-height: 1.4;
+
 overflow: hidden;
-font: 16px 'Fauna One', Georgia, serif;
+font: 16px/22px 'Fauna One', Georgia, serif;
 
 }
 
