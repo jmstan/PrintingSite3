@@ -29,8 +29,10 @@ nav li:last-child {
 header {
    background: url('{{site.url}}assets/01_fade.jpg');
   height:100%;
- 
+  background-position: center;
+  background-size: cover; 
 }
+
 header h1 {
 
 }
