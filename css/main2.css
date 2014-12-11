@@ -599,6 +599,7 @@ height: 100px;
 padding: 18px 20px 2px 20px;
 border-radius: 10px;
 line-height: 1.4;
+overflow: hidden;
 
 }
 
