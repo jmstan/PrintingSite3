@@ -9,11 +9,12 @@ nav {
     /* we'll override these shortly */
     z-index: 1000;
     width: 100%;
-    float;right;
-    oveflow:hidden;
+
 }
 nav ul {
     list-style: none;
+     float;right;
+    oveflow:hidden;
 }
 nav li {
     float: left;
