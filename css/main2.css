@@ -99,6 +99,11 @@ section {
 }
 /*------End Parallax Styles----*/
 
+h1{
+  float:left;
+  color:white;
+}
+
 .left{
   text-align: left;
 }
