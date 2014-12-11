@@ -13,7 +13,7 @@ nav {
 }
 nav ul {
     list-style: none;
-     float;right;
+    float:right;
     overflow:hidden;
 }
 nav li {
