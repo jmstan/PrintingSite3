@@ -24,8 +24,9 @@ nav li:last-child {
     border: 0;
 }
 header {
-    background-color: cyan;
-    height: 300px;
+   background: url('{{site.url}}assets/01_fade.jpg');
+  height:100%;
+ 
 }
 header h1 {
     color: white;
