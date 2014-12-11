@@ -14,7 +14,7 @@ nav {
 nav ul {
     list-style: none;
      float;right;
-    oveflow:hidden;
+    overflow:hidden;
 }
 nav li {
     float: left;
