@@ -18,7 +18,7 @@ layout: default
 
 		 </div>    
 
-		 <div class="arrow da-all"> <img src="{{site.url}}assets/arrow-down.svg"  style="width:250px;
+		 <div class="arrow da-all" id="element"> <img src="{{site.url}}assets/arrow-down.svg"  style="width:250px;
 		 height:250px"/>  </div>	
 
     </header>
@@ -84,7 +84,7 @@ layout: default
 			
 
 
-				<div class="service-image da-all t-all m-all">
+				<div class="service-image da-all t-all m-all" id="scrollto1">
 
 					<h3 class="service-title da-all t-all m-all"> Our Services </h3> 
 
@@ -143,10 +143,17 @@ layout: default
 <!-- end skrollr --></div>
  
      <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-      <script type="text/javascript" src="js/skrollr.min.js"></script>
+     <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/lib/jquery-scrollto.js"></script>
+     <script type="text/javascript" src="js/skrollr.min.js"></script>
      <script src="https://get.gridsetapp.com/31397/overlay/"></script>  
 
 
+
+<script>
+$('#scrollto1').ScrollTo();
+
+</script>
 
 <script>
     var s = skrollr.init();
