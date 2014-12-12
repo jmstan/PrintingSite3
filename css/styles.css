@@ -36,10 +36,10 @@ header {
 header h1 {
 
 }
-#content {
+/*#content {
     height: 900px;
     background-color: gray;
-}
+}*/
 
 	* {
 		padding:0;
