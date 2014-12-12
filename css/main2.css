@@ -629,7 +629,8 @@ margin-top: 5px;
 
 .slide1{
   background: url('{{site.url}}assets/03_01.jpg');
-  height:100%;
+  background-size: cover;
+background-position: center;
 }
 
 @media screen and (max-width:989px){
