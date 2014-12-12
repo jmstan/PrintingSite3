@@ -102,6 +102,7 @@ section {
 h1{
   float:left;
   color:white;
+  font: 28px/68px 'Playfair Display', Georgia, serif;
 }
 
 .left{
