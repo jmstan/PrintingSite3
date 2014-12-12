@@ -119,9 +119,9 @@ header h1 {
 		background-size:cover;
 	}
 
-	.skrollr .gap {
+	/*.skrollr .gap {
 		background:transparent !important;
-	}
+	}*/
 
 	.gap-50 {
 		height:50%;
