@@ -152,10 +152,11 @@ layout: default
 
 
 <script>
-$('#element').animate({
-    scrollTop: $("#target").offset().top
-}, 1000);
-
+$("#element").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#target").offset().top
+    }, 2000);
+});
 
 
 </script>
