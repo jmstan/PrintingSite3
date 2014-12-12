@@ -103,6 +103,9 @@ h1{
   float:left;
   color:white;
   font: 28px 'Playfair Display', Georgia, serif;
+  margin-top: 7px;
+letter-spacing: 1px;
+margin-left: 15px;
 }
 
 .left{
