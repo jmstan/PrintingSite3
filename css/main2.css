@@ -634,6 +634,10 @@ margin-top: 5px;
 background-position: center;
 }
 
+.arrow{
+  text-align: center;
+}
+
 @media screen and (max-width:989px){
 
 
