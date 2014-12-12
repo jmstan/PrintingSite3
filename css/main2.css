@@ -431,10 +431,11 @@ a{
 .service-title{
 font: 36px 'Playfair Display', Georgia, serif;
 color: black;
-margin-top: 10%;
+margin-top: 5%;
 margin-bottom: 7%;
 letter-spacing: 1px;
 font-weight: 400;
+text-align: center;
 
 }
 
