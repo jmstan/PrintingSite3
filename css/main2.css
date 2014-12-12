@@ -551,6 +551,7 @@ background-color: blue;
   background-position: center;
   width:100%;
   position: absolute;
+  height:700px;
 }
 
 .btn {
