@@ -548,9 +548,8 @@ background-color: blue;
   background: url('{{site.url}}assets/03_01.jpg');
   background-size: cover;
   background-position: center;
-  height: 800px;
   width:100%;
-  position: relative;
+  position: absolute;
 }
 
 .btn {
