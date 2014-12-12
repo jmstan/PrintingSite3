@@ -151,9 +151,20 @@ layout: default
 
 
 <script>
-$('#element').scrollTo('#target');
-}
+$('#element').animate({
+    scrollTop: $("#target").offset().top
+}, 1000);
 
+
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.href);
+    if( target.length ) {
+        event.preventDefault();
+        $('#element').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
 </script>
 
 <script>
